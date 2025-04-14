@@ -10,7 +10,7 @@ db = DB(db_host, db_port, db_user, db_passwd, db_name)
 
 TOKEN = "" # ТОКЕН ОТ БОТА
 DOMAIN = "" # ЕСЛИ ХОТИТЕ ЗАПУСТИТЬ НА ХУКАХ, НУЖНО ПРИВЯЗЫВАТЬ ДОМЕН
-ADMIN = [7754613816, 6764870506] # АЙДИШНИКИ АДМИНОВ ЧЕРЕЗ ЗАПЯТУЮ
+ADMIN = [77546138, 67670506] # АЙДИШНИКИ АДМИНОВ ЧЕРЕЗ ЗАПЯТУЮ
 BOT_TIMEZONE = "Europe/Moscow"
 
 NAME_PROJECT = 'Example Name WA Rent'

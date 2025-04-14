@@ -1,0 +1,13 @@
+[Unit]
+Description=Dex Bot
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/home/warent/
+ExecStart=/usr/bin/python3 /home/warent/main.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

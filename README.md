@@ -114,4 +114,22 @@
 
 Возникли вопросы или предложения? Пишите в Telegram: https://t.me/asynctraffic_tg
 
-**Happy learning!** 🚀
+## Немного скриншотов 📷
+
+![изображение](https://github.com/user-attachments/assets/427fcaec-7d3e-4271-94cf-c7b14ef10545)
+
+![изображение](https://github.com/user-attachments/assets/82c041bd-b9b6-49b1-ac50-dcc80b8728cf)
+
+![изображение](https://github.com/user-attachments/assets/16e58acd-f45c-43ca-b649-7f954524f8ff)
+
+![изображение](https://github.com/user-attachments/assets/159a6190-08fe-4369-ac12-5632118903cd)
+
+![изображение](https://github.com/user-attachments/assets/1b732266-165f-43b2-852c-66b410f0a732)
+
+![изображение](https://github.com/user-attachments/assets/901bf44f-b65c-42a5-b07c-7d6da498b12f)
+
+![изображение](https://github.com/user-attachments/assets/6b614678-dabf-4f99-8c2f-31d233890fd6)
+
+![изображение](https://github.com/user-attachments/assets/378dfc2a-fe77-41c7-9bc9-b65885306f83)
+
+

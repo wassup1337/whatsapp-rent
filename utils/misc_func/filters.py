@@ -19,7 +19,7 @@ class IsAdmin(BaseFilter):
         if user is None:
             return True
 
-        if message.from_user.id in ADMIN or user['role'] in ['admin', 'owner']:
+        if (message.from_user.id in ADMIN) or (user.get('role') != None and user.get('role') in ['admin', 'owner']):
             return True
         else:
             return False

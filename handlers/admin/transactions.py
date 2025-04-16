@@ -159,7 +159,7 @@ async def payment_user_message(msg: Message, state: FSM):
         return msg.answer(text, reply_markup=backFunKey(f"gettrans_{_id}"))
 
 
-@adminRouter.callback_query(paymentUser.send, F.data.startswith("send  sendcheck"))
+@adminRouter.callback_query(paymentUser.send, F.data.startswith("sendcheck"))
 async def sendcheck_page(call: CallbackQuery, state: FSM):
     data = await state.get_data()
     if data is None:

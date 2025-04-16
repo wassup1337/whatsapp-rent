@@ -55,8 +55,8 @@ async def start_user(msg: Message, state: FSM):
         f"🧊 На выводе: ${round(float(sum_hold), 2)}\n\n"
         f"💰 Ставка за 2 часа: ${settings['amount_pay']}"
     )
-    return msg.answer_photo(
-        photo=FSInputFile("data/hello_page.jpg"), caption=text, reply_markup=mainKeyInline()
+    return msg.answer(
+        text, reply_markup=mainKeyInline()
     )
 
 
@@ -74,8 +74,8 @@ async def view_menu_user_func(msg: Message, state: FSM):
         f"🧊 На выводе: ${round(float(sum_hold), 2)}\n\n"
         f"💰 Ставка за 2 часа: ${settings['amount_pay']}"
     )
-    return msg.answer_photo(
-        photo=FSInputFile("data/hello_page.jpg"), caption=text, reply_markup=mainKeyInline()
+    return msg.answer(
+        text, reply_markup=mainKeyInline()
     )
 
 

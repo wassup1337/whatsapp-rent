@@ -35,7 +35,7 @@
 1. **Клонируйте репозиторий**:
    ```bash
    git clone https://github.com/asyncTraffic/whatsapp-rent.git
-   cd watsapp-rent
+   cd whatsapp-rent
    ```
 
 2. **Создайте виртуальное окружение:**

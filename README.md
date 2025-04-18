@@ -34,7 +34,7 @@
 
 1. **Клонируйте репозиторий**:
    ```bash
-   git clone https://github.com/asyncTraffic/watsapp-rent.git
+   git clone https://github.com/asyncTraffic/whatsapp-rent.git
    cd watsapp-rent
    ```
 

@@ -8,15 +8,15 @@ db_name = "warent"
 
 db = DB(db_host, db_port, db_user, db_passwd, db_name)
 
-TOKEN = "8336658896:AAFR7JViR38cpzAm6cSj2i8fBaHfARpkWW4" # ТОКЕН ОТ БОТА
-DOMAIN = "" # ЕСЛИ ХОТИТЕ ЗАПУСТИТЬ НА ХУКАХ, НУЖНО ПРИВЯЗЫВАТЬ ДОМЕН
-ADMIN = [973816744] # АЙДИШНИКИ АДМИНОВ ЧЕРЕЗ ЗАПЯТУЮ
+TOKEN = "8336658896:AAFR7JViR38cpzAm6cSj2i8fBaHfARpkWW4" 
+DOMAIN = ""
+ADMIN = [973816744]
 BOT_TIMEZONE = "Europe/Moscow"
 
 NAME_PROJECT = 'Example Name WA Rent'
-CHAT_ID = -1002822480963 # АЙДИШНИК ЧАТА
-WORK_THREAD_ID = -1002822480963 # АЙДИ ТЕМЫ ДЛЯ ЛОГОВ
-PAYMENT_THREAD_ID = -1002822480963 # АЙДИ ТЕМЫ ДЛЯ ВЫПЛАТ
+CHAT_ID = -1002822480963
+WORK_THREAD_ID = -1002822480963
+PAYMENT_THREAD_ID = -1002822480963
 
 STATUS_TYPE = {
     "success": "выполнено",

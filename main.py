@@ -1,11 +1,9 @@
 import asyncio
 import logging, sys
 
-from aiogram.client.bot import DefaultBotProperties
-from aiogram.enums import ParseMode
-
-bot = Bot(token=BOT_8336658896:AAFR7JViR38cpzAm6cSj2i8fBaHfARpkWW4, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
-
+from aiohttp import web
+from aiogram import Bot, Dispatcher
+from aiogram.webhook.aiohttp_server import SimpleRequestHandler, setup_application
 from data.config import DOMAIN, TOKEN, db
 from handlers.admin import admin_base, mailing, phones_work, search_user, statistic, transactions
 from handlers.user import baseuser, phone_numbers, queue

@@ -3,8 +3,8 @@ from utils.postgres_db import DB
 db_host = "localhost"
 db_port = 5432
 db_user = "postgres"
-db_passwd = "rootpass"
-db_name = "warent"
+db_passwd = "123"
+db_name = "postgres"
 
 db = DB(db_host, db_port, db_user, db_passwd, db_name)
 
